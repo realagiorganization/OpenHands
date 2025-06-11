@@ -20,6 +20,24 @@
         "mcp-server-docker"
       ],
       "env": {}
+    },
+    {
+      "name": "mcp-youtube",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@anaisbetts/mcp-youtube"
+      ],
+      "env": {}
+    },
+    {
+      "name": "youtube-transcript",
+      "command": "npx",
+      "args": [
+        "-y",
+        "@kimtaeyoon83/mcp-server-youtube-transcript"
+      ],
+      "env": {}
     }
   ],
   "shttp_servers": []
