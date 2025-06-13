@@ -29,6 +29,19 @@
         "@anaisbetts/mcp-youtube"
       ],
       "env": {}
+    },
+    {
+      "name": "quran-api",
+      "command": "docker",
+      "args": [
+        "run",
+        "-i",
+        "--rm",
+        "--init",
+        "-e",
+        "VERBOSE_MODE=true",
+        "quran-mcp-server"
+      ],
     }
   ],
   "shttp_servers": []
