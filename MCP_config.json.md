@@ -29,17 +29,25 @@
         "@anaisbetts/mcp-youtube"
       ],
       "env": {}
-    },
-    {
-      "name": "youtube-transcript",
-      "command": "npx",
-      "args": [
-        "-y",
-        "@kimtaeyoon83/mcp-server-youtube-transcript"
-      ],
-      "env": {}
     }
   ],
   "shttp_servers": []
 }
+```
+
+
+### __THOSE SERVERS ARE BROKEN:__
+
+```json
+    [
+      {
+            "name": "youtube-transcript",
+            "command": "npx",
+            "args": [
+                "-y",
+                "@kimtaeyoon83/mcp-server-youtube-transcript"
+            ],
+            "env": {}
+        },
+    ]
 ```
