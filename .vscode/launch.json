@@ -19,7 +19,8 @@
       "console": "integratedTerminal",
       "env": {
         "WORKSPACE_BASE": "${workspaceFolder}/workspace",
-        "LOG_LEVEL": "INFO"
+        "LOG_LEVEL": "DEBUG",
+        "DEBUG": "1"
       }
     }
   ]

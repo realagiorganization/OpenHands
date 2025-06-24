@@ -40,8 +40,8 @@
         "--init",
         "-e",
         "VERBOSE_MODE=true",
-        "quran-mcp-server"
-      ],
+        "allthesunsets/quran-mcp-server"
+      ]
     }
   ],
   "shttp_servers": []

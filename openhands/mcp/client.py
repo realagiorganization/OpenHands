@@ -52,7 +52,7 @@ class MCPClient(BaseModel):
         self,
         server: MCPSSEServerConfig | MCPSHTTPServerConfig,
         conversation_id: str | None = None,
-        timeout: float = 30.0,
+        timeout: float = 3.0,
     ):
         """Connect to MCP server using SHTTP or SSE transport"""
         server_url = server.url

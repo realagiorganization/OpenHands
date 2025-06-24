@@ -3,6 +3,9 @@
 # Install `nc`
 sudo apt update && sudo apt install netcat -y
 
+# Install MCP Server fetch
+pip install mcp-server-fetch
+
 # # Install ffmpeg
 sudo apt install ffmpeg -y
 
@@ -11,3 +14,4 @@ python3 -m pip install -U "yt-dlp[default]"
 
 # Do common setup tasks
 source .openhands/setup.sh
+
